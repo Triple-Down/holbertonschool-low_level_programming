@@ -1,6 +1,6 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
  *main - entry point
  *Return: always 0 (success)
@@ -23,7 +23,7 @@ int main(void)
 	}
 	if (l < 6 && l != 0)
 	{
-		printf("Last digit of %d is %d less than 6 and not 0\n", n, l);
+		printf("Last digit of %d is %d and less than 6 and not 0\n", n, l);
 	}
 	return (0);
 }
