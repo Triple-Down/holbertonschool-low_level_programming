@@ -2,7 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ *main - entry point
+ *Return: always 0 (success)
+ */
 int main(void)
 {
 	int n;
@@ -11,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
 	{
-		printf("%1 is zero\n", n);
+		printf("%i is zero\n", n);
 	}
 	if (n > 0)
 	{
