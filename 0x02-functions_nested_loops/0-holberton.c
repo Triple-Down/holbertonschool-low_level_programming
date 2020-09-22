@@ -4,6 +4,7 @@
  *main - entry point
  *Return: always 0 (success)
  */
+
 int main(void)
 {
 	_putchar('H');
@@ -15,7 +16,6 @@ int main(void)
 	_putchar('t');
 	_putchar('o');
 	_putchar('n');
-
 	_putchar('\n');
 	return (0);
 }
