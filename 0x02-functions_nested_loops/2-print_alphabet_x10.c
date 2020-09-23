@@ -5,18 +5,17 @@
  *Return: always 0 (success)
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char c;
 	char a;
 
-	for (c = 1; c <= 0, c++)
+	for (c = 1; c <= 0; c++)
 	{
 		for (a = 'a'; a <= 'z'; a++)
 		{
-		_putchar(a);
+			_putchar(a);
+			_putchar('\n');
 		}
-		{
-		_putchar('\n');
-		}
+	}
 }
