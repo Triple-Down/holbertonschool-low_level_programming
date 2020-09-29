@@ -1,4 +1,4 @@
-#include <holberton.h>
+#include "holberton.h"
 /**
  * main - check the code for Holberton School students.
  *
@@ -6,5 +6,5 @@
  */
 void reset_to_98(int *n)
 {
-	*n = 98
+	*n = 98;
 }
