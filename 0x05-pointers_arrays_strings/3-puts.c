@@ -3,7 +3,6 @@
   * _puts : prints a string with a new line
   *
   * @str: char to check
-  *Description: printsout string w/ new line
   *
   * Return: always 0
   */
@@ -15,5 +14,8 @@ void _puts(char *str)
 	{
 		_putchar(*(str + S));
 		S++;
+	}
+	{
+	_putchar('\n');
 	}
 }
