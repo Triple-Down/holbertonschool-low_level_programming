@@ -5,7 +5,8 @@
  *
  * @n: checking this character
  *
- *Return: 1 (+) if n is greater than zero, 0 + 0 if n is zero, and -1 (-) if n is less than 0
+ *Return: 1 (+) if n is greater than zero, 0 + 0 if n is zero, and -1 (-) if
+ *n is less than 0
  */
 int print_sign(int n)
 {
