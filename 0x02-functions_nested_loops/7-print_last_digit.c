@@ -3,9 +3,9 @@
 /**
  * print_last_digit - function prints the last digit of a number
  *
- * @l: last integer formula
+ * @n: character to get last digit of
  *
- *Return: value of last digit
+ * Return: value of l (success)
  */
 int print_last_digit(int n)
 {
@@ -14,12 +14,14 @@ int print_last_digit(int n)
 	if (n >= 0)
 	{
 	l = n % 10;
+	_putchar(l + '0');
 	return (l);
 	}
 
 	else
 	{
-	l = n % 10;
-	return (l * -1);
+	l = -1 * (n % 10);
+	_putchar(l + '0');
+	return (l);
 	}
 }
